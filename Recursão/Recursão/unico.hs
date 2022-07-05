@@ -9,4 +9,6 @@ unico (x:xs) y
 main = do
     a <- readLn :: IO Int
     b <- readLn :: IO [Int]
-    print $ unico a b
+    print $ unico b a
+    return ()
+    

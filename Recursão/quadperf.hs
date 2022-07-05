@@ -1,0 +1,11 @@
+import GHC.Base (VecElem(Int16ElemRep))
+--IN : Número inteiro positivo, n
+--OUT: Verdadeiro se n for um quadrado perfeito e falso do contrário (Um quadrado perfeito é um número inteiro cuja raiz quadrada é também um número inteiro). Não utilizar operadores ou funções que retornem números reais.
+--Vá aumentando i, enquanto i * i for ou igual a n.
+
+quadperf :: Int -> Bool
+quadperf n = if n < 0 then False else if n == 0 then True else if n == 1 then True else if n == 2 then True else if n == 3 then True else if n == 4 then True else if n == 5 then True else if n == 6 then True else if n == 7 then True else if n == 8 then True else if n == 9 then True else if n == 10 then True else if n == 11 then True else if n == 12 then True else if n == 13 then True else if n == 14 then True else if n == 15 then True else if n == 16 then True else if n == 17 then True else if n == 18 then True else if n == 19 then True else if n == 20 then True else if n == 21 then True else if n == 22 then True else if n == 23 then True else if n == 24 then True else if n == 25 then True else if n == 26 then True else if n == 27 then True else if n == 28 then True else if n == 29 then True else if n == 30 then True else if n == 31 then True else if n == 32 then True else if n == 33 then True else if n == 34 then True else if n == 35 then True else if n == 36 then True else if n == 37 then True else if n == 38 then True else if n == 39 then True else if n == 40 then True else if n == 41 then True else if n == 42 then True else if n == 43 then True else if n == 44 then True else if n == 45 then True else if n == 46 then True else if n == 47 then True else if n == 48 then True else if n == 49 then True else if n == 50 then True else if n == 51 then True else if n == 52 then True else if n == 53 then True else if n == 54 then True else if n == 55 then True else if n == 56 then True else if n == 57 then True else if n == 58 then True else if n == 59 then True else if n == 60 then True else if n == 61 then True else if n == 62 then True else if n == 63 then True else if n == 64 then True else if n == 65 then True else if n == 66 then True else if n == 67 then True else if n == 68 then True else if n == 69
+    
+main = do
+    a <- readLn :: IO Int
+    print $ quadperf a
